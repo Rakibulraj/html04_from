@@ -1,0 +1,316 @@
+/*......Global css start */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+a, a:hover{
+    text-decoration: none;
+}
+/* .... global css end */
+
+
+/* .... header-section css start... */
+
+.header-section{
+    padding: 20px 0px;
+    background: #F0FFF0;
+    width: 100%;
+}
+
+.header-section .navbar{
+    display: flex;
+    align-items: center;
+}
+
+.header-section .navbar .logo{
+    flex-basis: 15%;
+
+}
+
+.header-section .navbar .logo img{
+    width: 100%;
+    height: auto;
+}
+
+.header-section .navbar .nav{
+    flex-basis: 70%;
+    display: flex;
+    justify-content: end;
+    
+}
+
+.header-section .navbar .nav ul{
+
+}
+
+.header-section .navbar .nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 30px;
+
+}
+
+.header-section .navbar .btn{
+    flex-basis: 15%;
+}
+.header-section .navbar .btn a{
+    padding: 12px 28px;
+    background: #21B573;
+    border-radius: 33px;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid #21B573;
+    color: #fff;
+}
+
+/* .... header-section css end...*/
+
+/* .... banner-section css start... */
+
+.banner{
+    padding: 20px 0px;
+    background: #F0FFF0;
+    width: 100%;
+}
+
+.banner .banner-inner{
+    display: flex;
+}
+.banner .banner-inner .content{
+    flex-basis: 50%;
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.banner .banner-inner .content span{
+    color: #FD511A;
+    line-height: 24px;
+
+}
+
+.banner .banner-inner .content h1{
+    font-size: 48px;
+    line-height: 70px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+.banner .banner-inner .content h1 span{
+    color: #21B573;
+}
+.banner .banner-inner .content p{
+    line-height: 36px;
+    font-weight: 400px;
+    padding-top: 30px;
+}
+
+.banner .banner-inner .content .banner-btn{
+    margin-top: 30px;
+}
+.banner .banner-inner .content .banner-btn a{
+    padding: 12px 36px;
+    background: #21B573;
+    border-radius: 33px;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid #000;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.banner .banner-inner .img-part{
+    flex-basis: 50%;
+}
+.banner .banner-inner .img-part img{
+    width: 100%;
+    height: auto;
+}
+
+/* ...banner section css end */
+
+
+/* ....feature section css start  */
+
+.feature{
+    width: 100%;
+    padding: 50px 0px;
+
+}
+
+.feature .feature-inner{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    
+}
+
+.feature .feature-inner .f-box {
+    padding: 30px;
+    margin-right: 0px;
+    border-radius: 10px;
+    transition: .5s;
+    background: #F8FFFB;
+}
+
+.feature .feature-inner .f-box:hover{
+    box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, .10);
+    background: #fff;
+    transition: .5s;
+}
+.feature .feature-inner .f-box img{
+    width: 66px;
+    height: 85px;
+}
+.feature .feature-inner .f-box h2{
+    font-weight: 400;
+}
+
+/* ...feature-section css end ...*/
+
+/* ...courses-section css code start */
+
+.courses{
+    width: 100%;
+    padding: 30px 0px;
+}
+
+.courses h1{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.courses .courses-inner{
+    padding: 20px 0px;
+    display: flex;
+    justify-content:space-evenly ;
+   
+    
+}
+.c-card{
+  padding: 20px 20px;
+  border-radius: 18px;
+  box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, .10);
+}
+
+.c-card img{
+    width: 330px;
+    height: 234px;
+}
+.c-card h3{
+    padding-top: 15px;
+    padding-bottom: 5px;
+    font-weight: 500;
+}
+.c-card p{
+    padding-bottom: 30px;
+   
+}
+.c-card .c-btn a{
+    padding: 8px 28px;
+    background: #21B573;
+    border-radius: 33px;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid #21B573;
+    color: #fff;
+    
+}
+
+.c-footer{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    margin: 0px 0px;
+
+}
+.c-footer .left img{
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+.c-footer .right img{
+    width: 24px;
+    height: 24px;
+    
+    vertical-align: middle;
+}
+/* ... */
+
+/* ... testimonial css start */
+
+.testimonial{
+    width: 100%;
+    margin: 50px 0px;
+}
+.testimonial h1{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.testimonial-inner{
+    display: flex;
+}
+
+.testimonial-inner .left{
+    width: 33%;
+}
+
+.testimonial-inner .left img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-left: 200px;
+}
+
+.testimonial-inner .right{
+    width: 67%;
+}
+.testimonial-inner .right p{
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+
+/* ... testimonial section css end.. */
+
+.footer{
+    width: 100%;
+    height: 350px;
+    background: #282531;
+}
+
+.footer-inner{
+    display: flex;
+    color: #fff;
+    padding-top: 80px;
+}
+
+.footer-inner .left{
+    width: 33%;
+} 
+
+.footer-inner .right{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-inner .right .three{
+    margin-left: 120px;
+}
+
+.finis{
+    color: #CDCDCD;
+    text-align: center;
+    line-height: 150px;
+}
+/* ... footer section css start.. */
+
+
+
+
